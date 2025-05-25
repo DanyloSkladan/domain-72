@@ -7,7 +7,7 @@
     justify-content: space-between;
     gap: 20px;
     max-width: 1115px;
-    margin: 0 0 0 auto ;
+    margin: 0 0 0 auto;
 }
 
 .exchange__img img {
@@ -16,9 +16,24 @@
 }
 
 .exchange__right {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.exchange__coin-btc {
+    position: absolute;
+    top: 17px;
+    right: 88px;
+    opacity: 0.3;
+}
+
+.exchange__coin {
+    position: absolute;
+    bottom: 119px;
+    right: 40px;
+    opacity: 0.3;
 }
 
 .exchange__subtitle {
@@ -33,7 +48,6 @@
 .exchange__description {
     max-width: 557px;
     margin-bottom: 48px;
-
 }
 
 .exchange__items {
@@ -68,4 +82,107 @@
     font-weight: 600;
     font-size: 19px;
     color: #020002;
+}
+
+@media (max-width: 1050px) {
+    .exchange__box {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .subtitle.subtitle-green {
+        text-align: center;
+    }
+
+    .exchange__title {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .exchange__img img {
+        width: 280px;
+        height: auto;
+    }
+
+    .exchange__description {
+        margin-bottom: 30px;
+        text-align: center;
+        max-width: 950px;
+    }
+
+    .exchange__items {
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    .exchange__item-description {
+        max-width: 290px;
+    }
+
+    .exchange__coin-btc {
+        top: 0;
+        right: -30px;
+    }
+
+    .exchange__coin {
+        bottom: -20px;
+        right: -10px;
+    }
+}
+
+@media (max-width: 850px) {
+    .exchange__items {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 750px) {
+    .exchange__img img {
+        width: 280px;
+        height: auto;
+    }
+
+    .exchange__title {
+        margin-bottom: 15px;
+    }
+
+    .exchange__description {
+        margin-bottom: 15px;
+    }
+
+    .exchange__coin-btc {
+        top: 0;
+        right: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .exchange__coin-btc svg,
+    .exchange__coin svg {
+        width: 30px;
+        height: auto;
+    }
+
+    .exchange__items {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 390px) {
+    .exchange__item-description,
+    .exchange__item-description span {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .exchange__item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .exchange__img img {
+        width: 260px;
+        height: auto;
+    }
 }

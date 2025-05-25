@@ -1,0 +1,135 @@
+.smarter__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.smarter__coin-btc {
+    position: absolute;
+    top: 226px;
+    right: 44px;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.smarter__coin-left {
+    position: absolute;
+    top: 320px;
+    left: 116px;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.smarter__coin-bottom {
+    position: absolute;
+    bottom: 126px;
+    left: -10px;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.smarter__title {
+    margin-bottom: 13px;
+    text-align: center;
+}
+
+.smarter__description {
+    margin-bottom: 53px;
+    max-width: 578px;
+    text-align: center;
+}
+
+.smarter__img img {
+    width: 324px;
+    height: auto;
+}
+
+.smarter__item {
+    border-radius: 17px;
+    box-shadow: 0 13px 20px 0 rgba(40, 40, 44, 0.06);
+    background: #fff;
+    padding: 12px;
+    width: 124px;
+}
+
+.smarter__item-icon {
+    margin-bottom: 8px;
+}
+
+.smarter__item-title {
+    font-weight: 500;
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.smarter__item-price {
+    font-weight: 400;
+    font-size: 13px;
+    color: #626f87;
+    margin-bottom: 8px;
+}
+
+.smarter__item-percent.plus {
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    color: #15c683;
+}
+
+.smarter__item-percent.minus {
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    color: #ea343e;
+}
+
+.smarter__img-box {
+    position: relative;
+}
+
+.smarter__items {
+    position: absolute;
+    display: flex;
+    bottom: 240px;
+    left: 27px;
+    gap: 8px;
+}
+
+@media (max-width: 1050px) {
+    .smarter__description {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 850px) {
+    .smarter__coin-left {
+        position: absolute;
+        top: 320px;
+        left: 20px;
+    }
+
+    .smarter__img img {
+        width: 280px;
+        height: auto;
+    }
+
+    .smarter__items {
+        position: absolute;
+        display: flex;
+        bottom: 195px;
+        left: 27px;
+        gap: 8px;
+    }
+}
+
+@media (max-width: 550px) {
+    .smarter__description {
+        margin-bottom: 20px;
+    }
+
+    .smarter__coin-btc svg, .smarter__coin-left, .smarter__coin-bottom {
+        width: 30px;
+    }
+}

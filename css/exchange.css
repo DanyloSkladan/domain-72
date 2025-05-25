@@ -1,0 +1,71 @@
+.exchange .container {
+    max-width: 1410px;
+}
+
+.exchange__box {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1115px;
+    margin: 0 0 0 auto ;
+}
+
+.exchange__img img {
+    width: 314px;
+    height: auto;
+}
+
+.exchange__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.exchange__subtitle {
+    margin-bottom: 10px;
+}
+
+.exchange__title {
+    max-width: 424px;
+    margin-bottom: 25px;
+}
+
+.exchange__description {
+    max-width: 557px;
+    margin-bottom: 48px;
+
+}
+
+.exchange__items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.exchange__item {
+    display: flex;
+    gap: 10px;
+}
+
+.exchange__item-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.exchange__item-description {
+    max-width: 263px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #6f6f6f;
+    line-height: 150%;
+}
+
+.exchange__item-description span {
+    font-weight: 600;
+    font-size: 19px;
+    color: #020002;
+}

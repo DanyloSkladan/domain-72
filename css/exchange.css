@@ -1,12 +1,12 @@
 .exchange .container {
-    max-width: 1410px;
+    max-width: 1324px;
 }
 
 .exchange__box {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    max-width: 1115px;
+    max-width: 1094px;
     margin: 0 0 0 auto;
 }
 
@@ -20,6 +20,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    top: -25px;
 }
 
 .exchange__coin-btc {
@@ -46,8 +47,8 @@
 }
 
 .exchange__description {
-    max-width: 557px;
-    margin-bottom: 48px;
+    max-width: 534px;
+    margin-bottom: 25px;
 }
 
 .exchange__items {

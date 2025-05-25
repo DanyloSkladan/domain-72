@@ -10,6 +10,24 @@
     height: auto;
 }
 
+.favorite__left {
+    position: relative;
+}
+
+.favorite__coin-top {
+    position: absolute;
+    top: 155px;
+    right: -44px;
+    opacity: 0.3;
+}
+
+.favorite__coin-bottom {
+    position: absolute;
+    bottom: 89px;
+    right: 28px;
+    opacity: 0.3;
+}
+
 .favorite__subtitle {
     margin-bottom: 5px;
 }

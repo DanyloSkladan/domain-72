@@ -100,7 +100,7 @@ h6 {
     color: #3860fb;
 }
 
-.subtitle.green {
+.subtitle.subtitle-green {
     color: #f77964;
 }
 
@@ -156,6 +156,21 @@ h6 {
     background: #c5c5c5;
 }
 
+.blue {
+    background: #3860fb;
+}
+
+.purple {
+    background: #8b3efd;
+}
+
+.cyan {
+    background: #22dcf6;
+}
+
+.red {
+    background: #eb3942;
+}
 
 @media (max-width: 1010px) {
     .global__wrapper {

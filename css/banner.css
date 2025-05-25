@@ -1,0 +1,39 @@
+.banner .container {
+    max-width: 1520px;
+}
+
+.banner__box {
+    background: #020002;
+    border-radius: 60px;
+    padding: 74px 197px 88px 113px;
+}
+
+.banner__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1214px;
+    gap: 20px;
+}
+
+.banner__title.title {
+    color: #fff;
+}
+
+.banner__img img {
+    width: 425px;
+    height: auto;
+}
+
+.banner__subtitle {
+    margin-bottom: 20px;
+}
+
+.banner__title {
+    max-width: 513px;
+    margin-bottom: 20px;
+}
+
+.banner__description {
+    max-width: 553px;
+}

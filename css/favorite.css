@@ -58,7 +58,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
+    min-width: 40px;
     height: 40px;
     border-radius: 50%;
 }
@@ -117,5 +117,75 @@
 
     .favorite__item-description {
         max-width: 300px;
+    }
+
+    .favorite__coin-top {
+        top: -15px;
+        right: -44px;
+    }
+
+    .favorite__coin-bottom {
+        bottom: 40px;
+        right: -15px;
+    }
+}
+
+@media (max-width: 850px) {
+    .favorite__coin-top {
+        top: -15px;
+        right: -10px;
+    }
+
+    .favorite__items {
+        grid-template-columns: 1fr;
+    }
+
+    .favorite__item.favorite-item-last {
+        grid-column: 1/1;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 550px) {
+    .favorite__title {
+        margin-bottom: 15px;
+    }
+
+    .favorite__description {
+        margin-bottom: 20px;
+    }
+
+    .favorite__items {
+        grid-gap: 10px;
+    }
+
+    .favorite__coin-top svg,
+    .favorite__coin-bottom svg {
+        width: 30px;
+        height: auto;
+    }
+
+    .favorite__item-icon {
+        min-width: 30px;
+        height: 30px;
+    }
+
+    .favorite__item-icon svg {
+        width: 15px;
+        height: auto;
+    }
+
+    .favorite__img img {
+        width: 350px;
+        height: auto;
+    }
+
+    .favorite__item-description {
+        font-size: 15px;
+    }
+
+    .favorite__item-description span {
+        font-size: 15px;
     }
 }
